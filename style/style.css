@@ -83,3 +83,48 @@ ul li:before {
     content: '✓';
 }
 
+/* About My Plan Section */
+
+.my-plan-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 150px;
+    max-width: 1140px;
+    align-items: center;
+    
+}
+
+.my-plan {
+    margin-top: 130px;
+}
+
+.plan-heading {
+    text-align: center;
+    margin-bottom: 56px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.plan-info {
+    margin: 0 80px;
+    text-align: center;
+}
+
+.plan-head-description {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.plan-image{
+    margin-bottom: 24px;
+}
+
