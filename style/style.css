@@ -1,5 +1,6 @@
 * {
     font-family: 'Work Sans';
+    margin: 0;
 }
 
 /* banner styles */
@@ -11,7 +12,7 @@
 
 .banner-top-right {
     position: absolute;
-    top: 130px;
+    top: 230px;
     right: 220px;
     left: 845px;
 }
@@ -41,3 +42,44 @@
     font-size: 20px;
 
 }
+
+/* About person section */
+
+.about-person {
+    display: flex;
+    margin-top: 131px;
+    margin-left: 206px;
+}
+
+.about-failures {
+    margin-top: 230px;
+    margin-right: 320px;
+    margin-left: 87px;
+}
+
+.design {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+
+}
+
+.design-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+ul li:before {
+    content: '✓';
+}
+
