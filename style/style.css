@@ -1,0 +1,43 @@
+* {
+    font-family: 'Work Sans';
+}
+
+/* banner styles */
+.banner {
+    position: relative;
+    text-align: right;
+
+}
+
+.banner-top-right {
+    position: absolute;
+    top: 130px;
+    right: 220px;
+    left: 845px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 20px;
+}
+
+.banner-sub-title {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 30px;
+}
+
+.banner-button {
+    border-radius: 5px;
+    width: 160px;
+    height: 70px;
+    background: #F15B22;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+
+}
