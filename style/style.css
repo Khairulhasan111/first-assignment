@@ -139,7 +139,7 @@ ul li:before {
 .gradient-image {}
 
 .gradient-container {
-    background-image: linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url('../images/gradient1.png');
+    background-image: url("../images/gradient1.png");
     margin-left: 170px;
     margin-top: 130px;
     background: no-repeat;
